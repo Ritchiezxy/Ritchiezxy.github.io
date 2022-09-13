@@ -29,7 +29,7 @@ jobs:
           deploy_key: ${{ secrets.NEW_SECRETES }}
           external_repository: Ritchiezxy/xinyanzhang.github.io # remote branch
           publish_dir: "./docs"
-          cname: blog.funnycode.org.cn          
+          cname: blog.xinyanzhang.cn         
           keep_files: false # remove existing files
           publish_branch: docs  # deploying branch
           commit_message: ${{ github.event.head_commit.message }}
